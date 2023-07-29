@@ -1,0 +1,119 @@
+body{
+    padding: 0;
+    margin: 0;   
+    width:100vw;
+    height: 100vh;   
+    background-image: url('Pop-Culture.jpg');
+}
+.panel{
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding-top: 10px;
+    margin-top: 150px;
+
+}
+.question,.options{
+    color: rgb(77, 6, 124);
+    font-size: 30px;
+    opacity: 1;
+}
+.panel h1{
+    color: rgb(173, 0, 165);
+    font-size: 40px;
+    opacity: 1;
+}
+#score{
+    font-size: 50px;
+}
+#btn{
+    color: white ;
+    background-color: #008CBA;
+    padding: 10px 25px;
+    text-align: center;
+    border: black;
+    border-color: black;
+    border-radius: 50%;
+    margin-right: 50px;
+    align-items: center;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+.question-container{
+    margin: 10px;
+    padding: 5px;
+    width: 80vw;
+    height: 10vh;
+    background-color: #c7dddf;
+    font-size: x-large;
+    text-align: center;
+     
+}
+.result{
+    margin: 10px;
+    padding: 5px;
+    width:80vw;
+    height: 10vh;
+    text-align: center;
+    font-size: 50px;
+     
+}
+.option-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 5px;
+    width: 80vw;
+    height: 20vh;
+    background-color: #9eb1b3;  
+       
+}
+.option{   
+    padding: 10px;
+    width: 15vw;
+    height: 10vh;
+    font-size: larger;
+    background-color: lightskyblue;
+    border-radius: 25%;
+}
+.option:hover{
+    background-color: lightgoldenrodyellow;
+}
+.navigation{
+    width: 80vw;
+    height: 10vh;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    background-color:#c7dddf;
+}
+ 
+.evaluate,.next{
+    width:30vw;
+    height: 8vh;
+    padding: 5px;
+    font-size: larger;
+}
+.evaluate{
+   
+    background-color: #50DBB4;
+}
+.next{
+    color: white;
+    background-color: #BF3325;
+}
